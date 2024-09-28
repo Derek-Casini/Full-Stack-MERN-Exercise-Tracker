@@ -1,0 +1,107 @@
+.App-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  min-height: 500px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #6185fb;
+  margin: 0%;
+}
+.App {
+  text-align: center;
+  background-color: rgb(112, 176, 255);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(1px + 2vmin);
+  color: rgb(0, 57, 0);
+  padding-left: 10%;
+  padding-right: 10%;
+  user-select: none;
+}
+
+.App-footer {
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.App-home, .App-edit, .App-create {
+  border-style: solid;
+  border-color: green;
+  border-width: 10px;
+}
+
+
+.App-header {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: bisque;
+  justify-content: top;
+  align-items: center;
+}
+
+.App-nav {
+  padding-top: 5px;
+  padding-bottom: 3%;
+  background-color: #6185fb;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+button {
+  color: bisque;
+  border: 1px solid bisque;
+  border-radius: 3px;
+  background-color: teal;
+  font-size: calc(1px + 2vmin);
+  padding: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+a {
+  text-decoration: none;
+  color: bisque
+}
+
+table, td, th {
+  border: 1px solid;
+  border-color: bisque;
+  height: calc(15px + 2vmin);;
+}
+
+table {
+  vertical-align: middle;
+  text-align: right;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: rgb(81, 160, 224);
+  width: 5%;
+}
+
+#edit-button, #delete-button {
+  cursor: pointer;
+}
+
+#add-button, #save-button {
+  display: flex;
+  margin-top: 4%;
+  align-content:var(table);
+}
+
+input, select {
+  border-color: bisque;
+  border: 2px solid green;
+  width: 80%;
+}
+
